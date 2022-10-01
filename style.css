@@ -1,5 +1,9 @@
-﻿body
+﻿body::before
 {
+    display: block;
+    content: '';
+    height: 60px;
+}
 }
 .nav-link:hover {
     filter: drop-shadow(0 0 .7em black) !important;
