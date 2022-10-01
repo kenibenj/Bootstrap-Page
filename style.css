@@ -1,3 +1,6 @@
-﻿body
+﻿body::before
 {
+    display: block;
+    content: '';
+    height: 60px;
 }
