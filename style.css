@@ -4,15 +4,27 @@
     content: '';
     height: 60px;
 }
-}
-.nav-link:hover {
-    filter: drop-shadow(0 0 .7em black) !important;
-    opacity: 60%;
-    color: white;
-    font: 900;
-    transition: all .25s;
-}
 
 .nav-link:hover::after{
     transition: all .25s;
+}
+
+.nav-custom {
+    color: white;
+    transition: .15s;
+}
+
+.nav-custom:hover{
+    opacity: 50%;
+}
+
+.loader {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 1000%;
+    height: 1000%;
+    background: white;
 }
