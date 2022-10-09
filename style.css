@@ -45,6 +45,15 @@
     background-position-y: bottom;
 }
 
+.aboutBackground {
+    background-image: url(images/cardTextureThree.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+    height: 100vh;
+}
+
 .stats{
     width: 40%;
 }
