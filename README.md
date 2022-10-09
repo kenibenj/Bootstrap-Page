@@ -34,12 +34,3 @@ Some things I still need to think about/some features I might implement:
 *   Having the ability to make a character's visibility private so only the creator of that character can see it
 *   Verify user account with email authentication?
 *   Forbid certain usernames in order to prevent distasteful public usernames. (here is a pretty good list of censored words I found : https://mod.gib.me/darksouls2/ngword/english.txt)
-
-### Current Goal
-
-Right now I am working on a proof of concept app that will support some of the features of the finished project.  
-It is currently using Entity Framework though this will obviously be changed in the final release of the webapp.  
-![](images/sites.JPG)  
-As of right now the proof of concept only functions properly on localhost, so I can't feature what I have done so far on this site just yet.  
-  
-![](images/Capture.JPG)
